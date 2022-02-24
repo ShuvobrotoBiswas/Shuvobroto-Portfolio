@@ -17,41 +17,50 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <div>
-      <q-img class="absolute-top" src="~assets/cover.png" style="height: 200px">
+        <q-img
+          class="absolute-top"
+          src="~assets/cover.png"
+          style="height: 200px"
+        >
           <div class="absolute-bottom bg-transparent">
             <q-avatar size="100px" class="q-mb-sm">
-              <img src="~assets/profile.png">
+              <img src="~assets/profile.png" />
             </q-avatar>
             <div class="text-weight-bold">Shuvobroto Biswas</div>
-            <div>sasamrat0@gmail.com</div>
-            <div>+880170 4567740</div>
+            <div>******@gmail.com</div>
+            <div>+880170 ******</div>
           </div>
         </q-img>
       </div>
       <div>
-           <q-scroll-area style="height: calc(100% - 150px); margin-top: 200px; border-right: 1px solid #ddd"></q-scroll-area>
-      <q-list>
-        <q-item-label header>My Essential Links </q-item-label>
+        <q-scroll-area
+          style="
+            height: calc(100% - 150px);
+            margin-top: 200px;
+            border-right: 1px solid #ddd;
+          "
+        ></q-scroll-area>
+        <q-list>
+          <q-item-label header>My Essential Links </q-item-label>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-
+          <EssentialLink
+            v-for="link in essentialLinks"
+            :key="link.title"
+            v-bind="link"
+          />
+        </q-list>
       </div>
     </q-drawer>
     <q-page-container>
       <router-view />
     </q-page-container>
 
-     <!-- Footer -->
-   <q-footer class="bg-black" >
-       <div class="row justify-center items-center">
-         2022 © Shuvobroto™ All rights reserved.
-       </div>
-      </q-footer>
+    <!-- Footer -->
+    <q-footer class="bg-black">
+      <div class="row justify-center items-center">
+        2022 © Shuvobroto™ All rights reserved.
+      </div>
+    </q-footer>
   </q-layout>
 </template>
 <script>
