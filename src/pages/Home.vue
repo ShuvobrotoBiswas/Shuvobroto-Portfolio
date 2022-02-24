@@ -123,80 +123,29 @@
    </div>
   </div>
    <div class="q-pa-md q-gutter-sm fixed-bottom-right " >
-    <q-btn
-      @click="prompt = true"
-      id="add"
+     <q-btn
+      icon="favorite"
       round
-      color="primary"
-      icon="chat"
-      class="q-ma-md bg-black "
-    />
-    </div>
-  
-    <!-- <q-dialog v-model="prompt" persistent>
-      <q-card style="min-width: 350px">
+      class="q-ma-md"
+      color="black"
+      @click="alert = true"
+     />
+   <q-dialog v-model="alert">
+      <q-card>
         <q-card-section>
-        <div class="q-pa-md row justify-center">
-    <div style="width: 100%; max-width: 350x">
-      <q-chat-message
-        :text="['Have you seen Quasar?']"
-        sent
-        text-color="white"
-        bg-color="primary"
-      >
-        <template v-slot:name>me</template>
-        <template v-slot:stamp>7 minutes ago</template>
-        <template v-slot:avatar>
-          <img
-            class="q-message-avatar q-message-avatar--sent"
-            src="https://cdn.quasar.dev/img/avatar4.jpg"
-          >
-        </template>
-      </q-chat-message>
-
-      <q-chat-message
-        bg-color="amber"
-      >
-        <template v-slot:name>Mary</template>
-        <template v-slot:avatar>
-          <img
-            class="q-message-avatar q-message-avatar--received"
-            src="https://cdn.quasar.dev/img/avatar2.jpg"
-          >
-        </template>
-
-        <div>
-          Already building an app with it...
-          <img src="https://cdn.quasar.dev/img/discord-qeart.png" class="my-emoji">
-        </div>
-
-        <q-spinner-dots size="2rem" />
-        </q-chat-message>
-       </div>
-       </div>
-       <div>
-        <q-btn class="q-mt-xl" color="gray" text-color="#ddd"
-                unelevated
-                label="Cancel"
-                no-caps
-                v-close-popup
-              />
-         <q-btn
-                class="q-mt-xl"
-                color="blue"
-                text-color="white"
-                unelevated
-                label="Save"
-                type="submit"
-                no-caps
-                v-close-popup
-              />
-      </div>
+          <div class="text-h6">About me</div>
         </q-card-section>
+
+        <q-card-section class="q-pt-none">
+          Frontend Developer (Software) | Vue.js | Quasar js | Figma | Javascript | Git | Node.js | Internship Completed at IT Conquest, Canada
+        </q-card-section>
+
+        <q-card-actions align="right">
+          <q-btn flat label="OK" color="primary" v-close-popup />
+        </q-card-actions>
       </q-card>
-    </q-dialog> -->
-
-
+    </q-dialog>
+    </div>
 </template>
 
 <script>
@@ -207,10 +156,13 @@ export default {
     return {
       slide: ref('first'),
       autoplay: ref(true),
+      alert: ref(false),
       prompt: false,
       submit: " ",
       cancel: "",
     }
+
+
   }
 }
 </script>
