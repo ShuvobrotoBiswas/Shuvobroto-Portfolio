@@ -123,16 +123,7 @@
    </div>
   </div>
 
-  <div class="q-pa-md q-gutter-sm fixed-bottom-right " >
-    <q-btn
-      @click="prompt = true"
-      id="add"
-      round
-      color="primary"
-      icon="chat"
-      class="q-ma-md bg-black "
-    />
-    </div>
+  
     <!-- <q-dialog v-model="prompt" persistent>
       <q-card style="min-width: 350px">
         <q-card-section>
