@@ -1,6 +1,7 @@
 <template>
-  <div class="text-h1 q-pa-md"> Developer Rocky 
+  <div class="text-h1 q-pa-md"> Developer Rocky
   </div>
+
 </template>
 
 <script>
