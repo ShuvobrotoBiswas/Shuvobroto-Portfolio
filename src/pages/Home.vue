@@ -57,10 +57,30 @@
     </q-carousel>
   </div>
   <div class="text-h4 row justify-center items-center">
+    About Me
+  </div>
+
+<!-- Break -->
+
+  <!-- <div class="flex-break q-py-md"></div> -->
+<div class="q-pa-md row justify-center items-center">
+  Frontend Developer (Software) | Vue.js | Quasar js | Figma | Javascript | Git | Node.js .
+  I completed an Internship on Vue js & Quasar at IT Conquest , Canada ( https://www.itconquest.com/ ).
+  There was spent great time ever , I was learned many programming to be a software developer like ,
+  Node js , SASS , SCSS , Javascript , Vue , Quasar , VueX , Rest APIs , Git, Time managements ,
+  Company behavior , Responsibility and many more . Now I'm responsible software engineer.
+</div>
+
+<!-- My Experiences -->
+  <div class="text-h4 row justify-center items-center">
     My Experiences
   </div>
 
+<!-- Break -->
+
   <div class="flex-break q-py-md"></div>
+
+<!-- My Experiences -->
 
  <div class="text-h5 row justify-center items-center">
   <div class="flex flex-center">
@@ -122,6 +142,10 @@
     </q-btn>
    </div>
   </div>
+
+  <!-- About Me Popup -->
+
+
    <div class="q-pa-md q-gutter-sm fixed-bottom-right " >
      <q-btn
       icon="favorite"

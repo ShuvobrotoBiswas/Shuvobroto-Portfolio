@@ -56,7 +56,7 @@
     </q-page-container>
 
     <!-- Footer -->
-    <q-footer class="bg-black">
+    <q-footer class="bg-black absolute-bottom">
       <div class="row justify-center items-center">
         2022 © Shuvobroto™ All rights reserved.
       </div>
