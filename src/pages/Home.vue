@@ -13,32 +13,34 @@
       <q-carousel-slide name="first" img-src="~assets/img1.jpg">
         <div class="absolute-bottom custom-caption">
           <div class="text-h4">Hello! This is Shuvobroto Biswas</div>
-          <div class="text-subtitle1">Frontend Developer | Cross Platform Software</div>
+          <div class="text-subtitle1">
+            Frontend Developer | Cross Platform Software
+          </div>
           <!-- My CV -->
           <transition
-           appear
-           enter-active-class="animated fadeIn"
-           leave-active-class="animated fadeOut"
+            appear
+            enter-active-class="animated fadeIn"
+            leave-active-class="animated fadeOut"
           >
-          <q-btn
-          color="black"
-          icon="collections_bookmark"
-          label="My CV"
-          href="https://drive.google.com/file/d/1I-fWsqrag8q2FUqDbuh5qwAsz9yrUKoO/view?usp=sharing"
-          />
+            <q-btn
+              color="black"
+              icon="collections_bookmark"
+              label="My CV"
+              href="https://drive.google.com/file/d/1I-fWsqrag8q2FUqDbuh5qwAsz9yrUKoO/view?usp=sharing"
+            />
           </transition>
           <!-- My Professional Achievements -->
           <transition
-           appear
-           enter-active-class="animated fadeIn"
-           leave-active-class="animated fadeOut"
+            appear
+            enter-active-class="animated fadeIn"
+            leave-active-class="animated fadeOut"
           >
-          <q-btn
-          color="black"
-          icon="workspace_premium"
-          label="My Professional Achievements"
-          href="https://drive.google.com/file/d/1RQ4vjFD4AfDU9_siWRQA-rLu9UkNmhsI/view?usp=sharing"
-          />
+            <q-btn
+              color="black"
+              icon="workspace_premium"
+              label="My Professional Achievements"
+              href="https://drive.google.com/file/d/1RQ4vjFD4AfDU9_siWRQA-rLu9UkNmhsI/view?usp=sharing"
+            />
           </transition>
         </div>
       </q-carousel-slide>
@@ -56,112 +58,121 @@
       </q-carousel-slide>
     </q-carousel>
   </div>
-  <div class="text-h4 row justify-center items-center">
-    About Me
-  </div>
+  <div class="text-h4 row justify-center items-center">About Me</div>
 
-<!-- Break -->
+  <!-- Break -->
 
   <!-- <div class="flex-break q-py-md"></div> -->
-<div class="q-pa-md row justify-center items-center">
-  Frontend Developer (Software) | Vue.js | Quasar js | Figma | Javascript | Git | Node.js .
-  I completed an Internship on Vue js & Quasar at IT Conquest , Canada ( https://www.itconquest.com/ ).
-  There was spent great time ever , I was learned many programming to be a software developer like ,
-  Node js , SASS , SCSS , Javascript , Vue , Quasar , VueX , Rest APIs , Git, Time managements ,
-  Company behavior , Responsibility and many more . Now I'm responsible software engineer.
-</div>
-
-<!-- My Experiences -->
-  <div class="text-h4 row justify-center items-center">
-    My Experiences
+  <div class="q-pa-md row justify-center items-center">
+    Frontend Developer (Software) | Vue.js | Quasar js | Figma | Javascript |
+    Git | Node.js . I completed an Internship on Vue js & Quasar at IT Conquest
+    , Canada ( https://www.itconquest.com/ ). There was spent great time ever ,
+    I was learned many programming to be a software developer like , Node js ,
+    SASS , SCSS , Javascript , Vue , Quasar , VueX , Rest APIs , Git, Time
+    managements , Company behavior , Responsibility and many more . Now I'm
+    responsible software engineer.
   </div>
 
-<!-- Break -->
+  <!-- My Experiences -->
+  <div class="text-h4 row justify-center items-center">My Experiences</div>
+
+  <!-- Break -->
 
   <div class="flex-break q-py-md"></div>
 
-<!-- My Experiences -->
+  <!-- My Experiences -->
 
- <div class="text-h5 row justify-center items-center">
-  <div class="flex flex-center">
-    <q-btn href="https://vuejs.org/">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img4.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://quasar.dev/">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img5.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://www.w3schools.com/js/">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img6.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://www.google.com/">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img7.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://nodejs.org/en/">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img8.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://www.figma.com/file/bLB9CgK4FHDfKZXCpx0bl2/GPS-Tracking-APP?node-id=0%3A1">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img9.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://github.com/ShuvobrotoBiswas">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img10.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-    <q-btn href="https://reactjs.org/">
-     <img class="q-pa-xs"
-      alt="Laptop logo"
-      src="~assets/img11.png"
-      style="width: 50px; height: 50px"
-    />
-    </q-btn>
-   </div>
+  <div class="text-h5 row justify-center items-center">
+    <div class="flex flex-center">
+      <q-btn href="https://vuejs.org/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img4.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://quasar.dev/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img5.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://www.w3schools.com/js/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img6.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://www.google.com/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img7.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://nodejs.org/en/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img8.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn
+        href="https://www.figma.com/file/bLB9CgK4FHDfKZXCpx0bl2/GPS-Tracking-APP?node-id=0%3A1"
+      >
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img9.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://github.com/ShuvobrotoBiswas">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img10.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://reactjs.org/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img11.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+    </div>
   </div>
 
   <!-- About Me Popup -->
 
-
-   <div class="q-pa-md q-gutter-sm fixed-bottom-right " >
-     <q-btn
+  <div class="q-pa-md q-gutter-sm fixed-bottom-right">
+    <q-btn
       icon="favorite"
       round
       class="q-ma-md"
       color="black"
       @click="alert = true"
-     />
-   <q-dialog v-model="alert">
+    />
+    <q-dialog v-model="alert">
       <q-card>
         <q-card-section>
           <div class="text-h6">About me</div>
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          Frontend Developer (Software) | Vue.js | Quasar js | Figma | Javascript | Git | Node.js | Internship Completed at IT Conquest, Canada
+          Frontend Developer (Software) | Vue.js | Quasar js | Figma |
+          Javascript | Git | Node.js | Internship Completed at IT Conquest,
+          Canada
         </q-card-section>
 
         <q-card-actions align="right">
@@ -169,26 +180,24 @@
         </q-card-actions>
       </q-card>
     </q-dialog>
-    </div>
+  </div>
 </template>
 
 <script>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 export default {
-  setup () {
+  setup() {
     return {
-      slide: ref('first'),
+      slide: ref("first"),
       autoplay: ref(true),
       alert: ref(false),
       prompt: false,
       submit: " ",
       cancel: "",
-    }
-
-
-  }
-}
+    };
+  },
+};
 </script>
 
 <style lang="sass" scoped>
@@ -202,5 +211,4 @@ export default {
   vertical-align: middle
   height: 2em
   width: 2em
-
 </style>
