@@ -56,6 +56,12 @@
           <div class="text-subtitle1">I working with this framework</div>
         </div>
       </q-carousel-slide>
+      <q-carousel-slide name="fourth" img-src="~assets/angular_cover.png">
+        <div class="absolute-bottom custom-caption">
+          <div class="text-h3">Angular JS</div>
+          <div class="text-subtitle1">I working with this framework</div>
+        </div>
+      </q-carousel-slide>
     </q-carousel>
   </div>
   <div class="text-h4 row justify-center items-center">About Me</div>
@@ -70,7 +76,7 @@
     I was learned many programming to be a software developer like , Node js ,
     SASS , SCSS , Javascript , Vue , Quasar , VueX , Rest APIs , Git, Time
     managements , Company behavior , Responsibility and many more . Now I'm
-    responsible software engineer.
+    responsible software engineer. Now working at Egypt's Project based job .
   </div>
 
   <!-- My Experiences -->
@@ -142,11 +148,11 @@
           style="width: 50px; height: 50px"
         />
       </q-btn>
-      <q-btn href="https://reactjs.org/">
+      <q-btn href="https://foodappbd.netlify.app/">
         <img
           class="q-pa-xs"
           alt="Laptop logo"
-          src="~assets/img11.png"
+          src="~assets/angular.png"
           style="width: 50px; height: 50px"
         />
       </q-btn>
@@ -170,9 +176,9 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          Frontend Developer (Software) | Vue.js | Quasar js | Figma |
-          Javascript | Git | Node.js | Internship Completed at IT Conquest,
-          Canada
+          Frontend Developer (Software) | Vue.js | Quasar js | Angular js |
+          Figma | Javascript | Git | Node.js | Internship Completed at IT
+          Conquest, Canada . Working at Egypt's Project based job .
         </q-card-section>
 
         <q-card-actions align="right">
