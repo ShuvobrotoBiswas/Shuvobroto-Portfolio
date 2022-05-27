@@ -3,7 +3,9 @@
     <q-carousel
       animated
       v-model="slide"
+      swipeable
       infinite
+      arrows
       :autoplay="autoplay"
       transition-prev="slide-right"
       transition-next="slide-left"
