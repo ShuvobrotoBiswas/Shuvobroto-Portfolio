@@ -27,8 +27,7 @@
               <img src="~assets/profile.png" />
             </q-avatar>
             <div class="text-weight-bold">Shuvobroto Biswas</div>
-            <div>******@gmail.com</div>
-            <div>+880170 ******</div>
+            <div>Software Engineer</div>
           </div>
         </q-img>
       </div>
