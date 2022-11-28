@@ -78,11 +78,92 @@
     I was learned many programming to be a software developer like , Node js ,
     SASS , SCSS , Javascript , Vue , Quasar , VueX , Rest APIs , Git, Time
     managements , Company behavior , Responsibility and many more . Now I'm
-    responsible software engineer. Now working at Egypt's Project based job .
+    responsible software engineer. Now working at Dyfuso(Kuuka) , UK as Frontend
+    Software Engineer.
   </div>
 
   <!-- My Experiences -->
   <div class="text-h4 row justify-center items-center">My Experiences</div>
+
+  <!-- Break -->
+
+  <div class="flex-break q-py-md"></div>
+
+  <!-- My Experiences -->
+
+  <div class="text-h5 row justify-center items-center">
+    <div class="flex flex-center">
+      <q-btn href="https://vuejs.org/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img4.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://quasar.dev/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img5.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://www.w3schools.com/js/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img6.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://www.google.com/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img7.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://nodejs.org/en/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img8.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn
+        href="https://www.figma.com/file/bLB9CgK4FHDfKZXCpx0bl2/GPS-Tracking-APP?node-id=0%3A1"
+      >
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img9.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://github.com/ShuvobrotoBiswas">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/img10.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+      <q-btn href="https://foodappbd.netlify.app/">
+        <img
+          class="q-pa-xs"
+          alt="Laptop logo"
+          src="~assets/angular.png"
+          style="width: 50px; height: 50px"
+        />
+      </q-btn>
+    </div>
+  </div>
+
+  <!-- My Technology -->
+  <div class="text-h4 row justify-center items-center">My Technology</div>
 
   <!-- Break -->
 
